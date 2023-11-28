@@ -1057,23 +1057,9 @@ audio {
 		-ms-transform:translate(0px,0px);
 	}
 }o
-@keyframes bannar_come {
-	0%{
-		transform:translate(0px,-1000px);
-	}
-	33%{
-		transform:translate(0px,0px);
-		transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		transform:translate(0px,100px);
-		transform:rotate(-10deg);
-	}
-	100% {
-		transform:translate(0px,0px);
-	}
-}
+.elemento {
+	animation: bannar_come 5s infinite;
+  }
 
 .balloons {
 	position: fixed;
@@ -1113,6 +1099,9 @@ audio {
 }
 #b7,#b77{
 	background-image: url('b7.png');
+}
+#b8, #b88{
+	background-image: url('b8.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
